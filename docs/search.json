@@ -46,7 +46,7 @@
     "href": "assignments/assignment-1.html",
     "title": "Assignment 1",
     "section": "",
-    "text": "1 + 1\n\n[1] 2\n\n\nMy first assignment has two parts."
+    "text": "This assignment consists of three parts.\n\nA Brief Summary of …\nThree differences between R and Python.\nExamining and handling “NA Values” on a sample data."
   },
   {
     "objectID": "assignments.html",
@@ -61,5 +61,82 @@
     "title": "My Blog",
     "section": "",
     "text": "This page is under construction.\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a",
+    "href": "assignments/assignment-1.html#a",
+    "title": "Assignment 1",
+    "section": "(a)",
+    "text": "(a)"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#b",
+    "href": "assignments/assignment-1.html#b",
+    "title": "Assignment 1",
+    "section": "(b)",
+    "text": "(b)"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#i-a-brief-summary-of",
+    "href": "assignments/assignment-1.html#i-a-brief-summary-of",
+    "title": "Assignment 1",
+    "section": "A Brief Summary of …",
+    "text": "A Brief Summary of …"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#i-three-differences-between-r-and-python.",
+    "href": "assignments/assignment-1.html#i-three-differences-between-r-and-python.",
+    "title": "Assignment 1",
+    "section": "(i) Three differences between R and Python.",
+    "text": "(i) Three differences between R and Python."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#i-examining-and-handling-na-values-on-a-sample-data.",
+    "href": "assignments/assignment-1.html#i-examining-and-handling-na-values-on-a-sample-data.",
+    "title": "Assignment 1",
+    "section": "(i) Examining and Handling “NA Values” on a sample data.",
+    "text": "(i) Examining and Handling “NA Values” on a sample data."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#iithree-differences-between-r-and-python.",
+    "href": "assignments/assignment-1.html#iithree-differences-between-r-and-python.",
+    "title": "Assignment 1",
+    "section": "2 (ii)Three Differences Between R and Python.",
+    "text": "2 (ii)Three Differences Between R and Python."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#iiiexamining-and-handling-na-values-on-a-sample-data.",
+    "href": "assignments/assignment-1.html#iiiexamining-and-handling-na-values-on-a-sample-data.",
+    "title": "Assignment 1",
+    "section": "3 (iii)Examining and Handling “NA Values” on a Sample Data.",
+    "text": "3 (iii)Examining and Handling “NA Values” on a Sample Data."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#three-differences-between-r-and-python.",
+    "href": "assignments/assignment-1.html#three-differences-between-r-and-python.",
+    "title": "Assignment 1",
+    "section": "Three Differences Between R and Python.",
+    "text": "Three Differences Between R and Python.\nAlthough there are many similarities between Python and R languages that are frequently used today, there are also very clear and fundamental differences. We can summarize these three fundamental differences as follows:\n\nAssignment Operator\nWhile in Python, the assignment operator is a single equality sign “=”, in R, the assignment operator can also be expressed as “&lt;-”, and for the sake of code clarity and convention, the use of “&lt;-” is recommended by the community.\nPython\n\ndue_date_assignment = \"November 03, 2023\" \nprint(due_date_assignment)\n\nNovember 03, 2023\n\n\nR\n\ndue_date_assignment &lt;- \"November 03, 2023\"\nprint(due_date_assignment)\n\n[1] \"November 03, 2023\"\n\n\n\n\nIndentation\nPython indentation refers to adding white space before a statement to a particular block of code. In other words, the lines which belongs to same block of code must have a same indent. In R, there is no such obligation. However, indentation is recommended for ease of coding and reading.\nPython\n\ndue_date_assignment = \"November 03, 2023\" \n  print(due_date_assignment)\n\nunexpected indent (&lt;string&gt;, line 2)\n\n\nR\n\ndue_date_assignment &lt;- \"November 03, 2023\"\n  print(due_date_assignment)\n\n[1] \"November 03, 2023\"\n\n\n\n\nIndexing"
+  },
+  {
+    "objectID": "assignments/assignment-1.html#examining-and-handling-na-values-on-a-sample-data.",
+    "href": "assignments/assignment-1.html#examining-and-handling-na-values-on-a-sample-data.",
+    "title": "Assignment 1",
+    "section": "Examining and Handling “NA Values” on a Sample Data.",
+    "text": "Examining and Handling “NA Values” on a Sample Data."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#overview",
+    "href": "assignments/assignment-1.html#overview",
+    "title": "Assignment 1",
+    "section": "",
+    "text": "This assignment consists of three parts.\n\nA Brief Summary of …\nThree differences between R and Python.\nExamining and handling “NA Values” on a sample data."
+  },
+  {
+    "objectID": "assignments/assignment-1.html#a-brief-summary-of",
+    "href": "assignments/assignment-1.html#a-brief-summary-of",
+    "title": "Assignment 1",
+    "section": "A Brief Summary of …",
+    "text": "A Brief Summary of …"
   }
 ]

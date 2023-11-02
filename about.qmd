@@ -2,6 +2,7 @@
 title: "About Me"
 sidebar: false
 css: styles.css
+date: last-modified
 ---
 
 # Resume

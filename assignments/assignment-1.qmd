@@ -1,15 +1,69 @@
 ---
 title: "Assignment 1"
+date: last-modified
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    toc-tite: Contents
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
 ---
 
-# Assignment 1
+## Overview
 
-```{r}
-1 + 1
+This assignment consists of three parts.
+
+1.  A Brief Summary of ...
+
+2.  Three differences between R and Python.
+
+3.  Examining and handling "NA Values" on a sample data.
+
+## A Brief Summary of ...
+
+## Three Differences Between R and Python.
+
+Although there are many similarities between Python and R languages that are frequently used today, there are also very clear and fundamental differences. We can summarize these three fundamental differences as follows:
+
+### Assignment Operator
+
+While in Python, the assignment operator is a single equality sign "=", in R, the assignment operator can also be expressed as "\<-", and for the sake of code clarity and convention, the use of "\<-" is recommended by the community.
+
+[*Python*]{.underline}
+
+```{python}
+due_date_assignment = "November 03, 2023" 
+print(due_date_assignment)
 ```
 
-My first assignment has two parts.
+[*R*]{.underline}
 
-## (a)
+```{r}
+due_date_assignment <- "November 03, 2023"
+print(due_date_assignment)
+```
 
-## (b)
+### Indentation
+
+Python indentation refers to adding white space before a statement to a particular block of code. In other words, the lines which belongs to same block of code must have a same indent. In R, there is no such obligation. However, indentation is recommended for ease of coding and reading.
+
+[*Python*]{.underline}
+
+```{python}
+#| error: true
+due_date_assignment = "November 03, 2023" 
+  print(due_date_assignment)
+```
+
+[*R*]{.underline}
+
+```{r}
+due_date_assignment <- "November 03, 2023"
+  print(due_date_assignment)
+```
+
+### Indexing
+
+## Examining and Handling "NA Values" on a Sample Data.
