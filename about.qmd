@@ -1,7 +1,14 @@
 ---
 title: "About Me"
-sidebar: false 
+sidebar: false
+css: styles.css
 ---
+
+# Resume
+
+Download my CV
+
+{{< downloadthis C:/Users/ardat/Documents/GitHub/emu430-fall2023-ardaturkan/my-cv.pdf dname=Arda-Turkan label="Download my CV" icon=download class=hvr-sweep-to-left >}}
 
 # Education
 
