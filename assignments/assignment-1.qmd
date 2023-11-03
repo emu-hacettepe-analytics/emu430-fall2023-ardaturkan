@@ -1,6 +1,8 @@
 ---
 title: "Assignment 1"
 date: last-modified
+author: 
+  - name: Arda Türkan
 format:
   html:
     toc: true
@@ -14,13 +16,17 @@ format:
 
 This assignment consists of three parts.
 
-1.  A Brief Summary of ...
+1.  "Import Excel to R"
 
 2.  Three differences between R and Python.
 
 3.  Examining and handling "NA Values" on a sample data.
 
-## A Brief Summary of ...
+## "Import Excel to R"
+
+I will give a brief summary of the video: [Import Data, Copy Data from Excel to R CSV & TXT Files](https://www.youtube.com/watch?v=qPk0YEKhqB8)
+
+Mike Marin discusses how to import data from Excel into R. He outlines the steps for importing data from both CSV and tab-delimited text files. He demonstrates the use of the "read.csv," "read.table," and "read.delim" commands in R to import data, using the "file.choose" command to select the data file from a menu. He also highlights the importance of setting the "header" argument to TRUE when the first row of the data set contains variable names. The video covers both CSV and tab-delimited text file import methods.
 
 ## Three Differences Between R and Python.
 
