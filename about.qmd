@@ -1,8 +1,20 @@
 ---
 title: "About Me"
-sidebar: false
+sidebar: true
 css: styles.css
 date: last-modified
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-location: right
+    smooth-scroll: true
+    anchor-sections: true
+    grid: 
+      sidebar-width: 250px
+      body-width:	800px
+      margin-width: 250px
+      gutter-width: 1.5em
 ---
 
 # Resume

@@ -5,7 +5,6 @@ format:
   html:
     toc: true
     toc-depth: 3
-    toc-tite: Contents
     toc-location: right
     smooth-scroll: true
     anchor-sections: true
@@ -66,4 +65,52 @@ due_date_assignment <- "November 03, 2023"
 
 ### Indexing
 
-## Examining and Handling "NA Values" on a Sample Data.
+The one of the most crucial difference between syntaxes of R and Python is to reference a variable in an array by using its index number. While indexing in Python starts at 0, in R, the first element has an index of 1.
+
+*Although there are different data types in both languages, this expression is valid for all data types in both languages.*
+
+[*Python*]{.underline}
+
+```{python}
+numerical_digits_descending = [9,8,7,6,5,4,3,2,1,0]
+print(numerical_digits_descending[0])
+```
+
+[*R*]{.underline}
+
+```{r}
+numerical_digits_descending <- c(9,8,7,6,5,4,3,2,1,0)
+print(numerical_digits_descending[1])
+```
+
+## "NA Values" on a Sample Data.
+
+### Import and Examine Data
+
+First of all our data can be shown by:
+
+```{r}
+library(dslabs)
+dslabs::na_example
+```
+
+To see the total number of "*NA"* values, we use the following code:
+
+```{r}
+sum(is.na(na_example))
+```
+
+### Handle Missing Values
+
+We will replace the missing values by 0 and store the data in a new object :
+
+```{r}
+new_data_set <- replace(na_example, is.na(na_example), 0)
+new_data_set
+```
+
+To check whether there is any "NA" values are left:
+
+```{r}
+sum(is.na(new_data_set))
+```

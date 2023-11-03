@@ -1,9 +1,4 @@
 ---
 title: "Assignment 2"
+date: last-modified
 ---
-
-# Assignment 2
-
-```{r}
-1 + 1
-```
